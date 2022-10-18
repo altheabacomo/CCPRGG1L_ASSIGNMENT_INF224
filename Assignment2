@@ -1,0 +1,38 @@
+public class Assignment2 {
+    public static void main(String[] args) throws Exception {
+        int count = 0;
+
+         while (count !=3){
+            System.out.println("FRANCESS ALTHEA");
+            count ++;
+        }
+        // do while loop
+
+         int i = 0;
+         do {
+            System.out.println("AGUINALDO");
+             i ++;
+        } while (i != 4);
+
+        //for loop
+
+        for (int l = 0; l != 5;  l++) {
+            System.out.println("BACOMO");
+        }
+        // char array
+        
+        String[] myFirstName = {"F","R","A","N","C","E","S","S","A","L","T","H","E","A"};
+
+        for (int counter = 0; counter < myFirstName.length; counter++) {
+            System.out.println(myFirstName[counter]);
+        }
+
+        // char array in reverse
+        
+        String[] myfirstname = {"A","E","H","T","L","A","S","S","E","C","N","A","R","F"};
+
+        for (int l = 0; l < myFirstName.length; l++) {
+            System.out.println(myfirstname[l]);
+}
+    }
+}
